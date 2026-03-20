@@ -8,10 +8,10 @@ A modern chat application with AI responses, built with React (frontend) and Nod
 
 ```bash
 # 1. Run the start script
-./start.sh
+bash start.sh
 
 # 2. Stop all services
-./stop.sh
+bash stop.sh
 
 # Or press Ctrl+C
 ```
