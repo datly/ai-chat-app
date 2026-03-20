@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
   timestamps: true
 });
 
-userSchema.index({ sessionId: 1 });
+// Index already defined in schema with index:true
 userSchema.index({ createdAt: -1 });
 
 module.exports = mongoose.model('User', userSchema);
